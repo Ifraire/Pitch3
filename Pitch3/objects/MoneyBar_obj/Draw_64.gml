@@ -1,16 +1,15 @@
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
-/// @DnDHash : 7ADEA765
-/// @DnDArgument : "x" "2"
+/// @DnDHash : 2A84F8C0
 /// @DnDArgument : "x_relative" "1"
 /// @DnDArgument : "y" "-175"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Money""
-draw_text(x + 2, y + -175, string("Money") + "");
+draw_text(x + 0, y + -175, string("Money") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Healthbar
 /// @DnDVersion : 1
-/// @DnDHash : 016A2D3F
+/// @DnDHash : 4D4A73F7
 /// @DnDArgument : "x1_relative" "1"
 /// @DnDArgument : "y1" "-150"
 /// @DnDArgument : "y1_relative" "1"

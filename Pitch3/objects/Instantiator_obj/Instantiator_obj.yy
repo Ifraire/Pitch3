@@ -27,7 +27,7 @@
     "path": "folders/Objects.yy",
   },
   "resourceVersion": "1.0",
-  "name": "Instantiator_obj",
+  "name": "instantiator_obj",
   "tags": [],
   "resourceType": "GMObject",
 }
