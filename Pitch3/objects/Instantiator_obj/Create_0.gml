@@ -25,6 +25,19 @@ global.Grades = 100;
 /// @DnDArgument : "var" "Energy"
 global.Energy = 50;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 6EACB66B
+/// @DnDArgument : "var" "week"
+global.week = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 35B45234
+/// @DnDArgument : "value" "ds_list_create()"
+/// @DnDArgument : "var" "taskList"
+global.taskList = ds_list_create();
+
 /// @DnDAction : YoYo Games.Rooms.Next_Room
 /// @DnDVersion : 1
 /// @DnDHash : 771264CB

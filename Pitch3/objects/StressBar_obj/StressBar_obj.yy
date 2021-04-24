@@ -23,8 +23,8 @@
   "properties": [],
   "overriddenProperties": [],
   "parent": {
-    "name": "bars",
-    "path": "folders/Objects/bars.yy",
+    "name": "meters",
+    "path": "folders/Objects/meters.yy",
   },
   "resourceVersion": "1.0",
   "name": "StressBar_obj",
