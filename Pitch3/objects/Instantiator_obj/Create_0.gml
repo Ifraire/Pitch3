@@ -1,0 +1,31 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2AED1E61
+/// @DnDArgument : "var" "Stress"
+global.Stress = 0;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2769C4CE
+/// @DnDArgument : "value" "25"
+/// @DnDArgument : "var" "Money"
+global.Money = 25;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 148F6918
+/// @DnDArgument : "value" "100"
+/// @DnDArgument : "var" "Grades"
+global.Grades = 100;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 6F16A5D1
+/// @DnDArgument : "value" "50"
+/// @DnDArgument : "var" "Energy"
+global.Energy = 50;
+
+/// @DnDAction : YoYo Games.Rooms.Next_Room
+/// @DnDVersion : 1
+/// @DnDHash : 771264CB
+room_goto_next();
