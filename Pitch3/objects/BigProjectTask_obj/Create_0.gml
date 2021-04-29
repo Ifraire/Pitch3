@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 2557D5BD
+/// @DnDArgument : "value" "true"
+/// @DnDArgument : "var" "didSchool"
+global.didSchool = true;
+
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6292CD88

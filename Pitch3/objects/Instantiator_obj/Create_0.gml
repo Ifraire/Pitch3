@@ -38,6 +38,20 @@ global.week = 0;
 /// @DnDArgument : "var" "taskList"
 global.taskList = ds_list_create();
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 63ED990D
+/// @DnDArgument : "value" "true"
+/// @DnDArgument : "var" "didSchool"
+global.didSchool = true;
+
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1DC1F79E
+/// @DnDArgument : "value" "true"
+/// @DnDArgument : "var" "didSleep"
+global.didSleep = true;
+
 /// @DnDAction : YoYo Games.Rooms.Next_Room
 /// @DnDVersion : 1
 /// @DnDHash : 771264CB

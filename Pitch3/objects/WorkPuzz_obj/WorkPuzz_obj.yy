@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "L",
-    "path": "sprites/L/L.yy",
+    "name": "_L",
+    "path": "sprites/_L/_L.yy",
   },
   "solid": false,
   "visible": true,
