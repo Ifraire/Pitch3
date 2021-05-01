@@ -23,13 +23,13 @@ draw_set_valign(fa_middle);
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 25E8C058
-/// @DnDArgument : "x" "40"
+/// @DnDArgument : "x" "-116"
 /// @DnDArgument : "x_relative" "1"
-/// @DnDArgument : "y" "40"
+/// @DnDArgument : "y" "-110"
 /// @DnDArgument : "y_relative" "1"
 /// @DnDArgument : "caption" ""Start Week ""
 /// @DnDArgument : "var" "global.week"
-draw_text(x + 40, y + 40, string("Start Week ") + string(global.week));
+draw_text(x + -116, y + -110, string("Start Week ") + string(global.week));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

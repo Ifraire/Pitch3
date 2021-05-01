@@ -25,8 +25,8 @@ draw_set_font(MeterFont);
 /// @DnDHash : 7E9DB0BD
 /// @DnDArgument : "x" "room_width / 2"
 /// @DnDArgument : "y" "room_height / 2"
-/// @DnDArgument : "caption" ""You powernapped""
-draw_text(room_width / 2, room_height / 2, string("You powernapped") + "");
+/// @DnDArgument : "caption" ""You powernapped, it was so short there is no minigame""
+draw_text(room_width / 2, room_height / 2, string("You powernapped, it was so short there is no minigame") + "");
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1

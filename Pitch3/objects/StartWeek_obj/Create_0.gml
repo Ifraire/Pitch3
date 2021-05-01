@@ -35,8 +35,9 @@ if(!(global.didSleep))
 	/// @DnDHash : 6314421C
 	/// @DnDParent : 42EA558B
 	/// @DnDArgument : "value" "-15"
+	/// @DnDArgument : "value_relative" "1"
 	/// @DnDArgument : "var" "Energy"
-	global.Energy = -15;
+	global.Energy += -15;
 }
 
 /// @DnDAction : YoYo Games.Common.Set_Global

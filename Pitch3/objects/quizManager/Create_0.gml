@@ -1,3 +1,30 @@
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 011115A4
+/// @DnDArgument : "value" "true"
+/// @DnDArgument : "var" "didSchool"
+global.didSchool = true;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 56EB4654
+/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "var" "tempGrades"
+tempGrades = 10;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
+/// @DnDHash : 3A9118F3
+/// @DnDArgument : "expr" "15"
+/// @DnDArgument : "var" "tempStress"
+tempStress = 15;
+
+/// @DnDAction : YoYo Games.Instances.Set_Alarm
+/// @DnDVersion : 1
+/// @DnDHash : 179AA0A6
+/// @DnDArgument : "steps" "600"
+alarm_set(0, 600);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3F13F679

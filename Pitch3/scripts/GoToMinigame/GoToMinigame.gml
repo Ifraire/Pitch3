@@ -3,7 +3,8 @@
 /// @DnDHash : 176342BF
 /// @DnDComment : // Script assets have changed for v2.3.0 see$(13_10)// https://help.yoyogames.com/hc/en-us/articles/360005277377 for more information
 /// @DnDArgument : "funcName" "GoToMinigame"
-function GoToMinigame() 
+/// @DnDArgument : "arg" "inWeek"
+function GoToMinigame(inWeek) 
 {
 	/// @DnDAction : YoYo Games.Common.If_Variable
 	/// @DnDVersion : 1
@@ -51,8 +52,11 @@ function GoToMinigame()
 						/// @DnDVersion : 1
 						/// @DnDHash : 017ABDD3
 						/// @DnDParent : 79044563
-						/// @DnDArgument : "code" "ds_list_delete(global.taskList,0)$(13_10)if (ds_list_size(global.taskList) > 0)$(13_10){$(13_10)switch (ds_list_find_value(global.taskList,0))$(13_10){$(13_10)	case "power nap":$(13_10)		room_goto(PowerNap);$(13_10)		break;$(13_10)	case "hang out":$(13_10)		room_goto(HangOut);$(13_10)		break;$(13_10)	case "big project":$(13_10)		room_goto(BigProject);$(13_10)		break;$(13_10)	case "work":$(13_10)		room_goto(Work);$(13_10)		break;$(13_10)	case "8 hour sleep":$(13_10)		room_goto(Sleep);$(13_10)		break;$(13_10)}$(13_10)}$(13_10)else$(13_10){$(13_10)	room_goto(Room1)$(13_10)}"
-						ds_list_delete(global.taskList,0)
+						/// @DnDArgument : "code" "if(inWeek)$(13_10){$(13_10)	ds_list_delete(global.taskList,0)$(13_10)}$(13_10)if (ds_list_size(global.taskList) > 0)$(13_10){$(13_10)switch (ds_list_find_value(global.taskList,0))$(13_10){$(13_10)	case "power nap":$(13_10)		room_goto(PowerNap);$(13_10)		break;$(13_10)	case "hang out":$(13_10)		room_goto(HangOut);$(13_10)		break;$(13_10)	case "big project":$(13_10)		room_goto(BigProject);$(13_10)		break;$(13_10)	case "work":$(13_10)		room_goto(Work);$(13_10)		break;$(13_10)	case "8 hour sleep":$(13_10)		room_goto(sleepRoom);$(13_10)		break;$(13_10)	case "study":$(13_10)		room_goto(quizRoom);$(13_10)		break;$(13_10)}$(13_10)}$(13_10)else$(13_10){$(13_10)	room_goto(Room1)$(13_10)}"
+						if(inWeek)
+						{
+							ds_list_delete(global.taskList,0)
+						}
 						if (ds_list_size(global.taskList) > 0)
 						{
 						switch (ds_list_find_value(global.taskList,0))
@@ -70,7 +74,10 @@ function GoToMinigame()
 								room_goto(Work);
 								break;
 							case "8 hour sleep":
-								room_goto(Sleep);
+								room_goto(sleepRoom);
+								break;
+							case "study":
+								room_goto(quizRoom);
 								break;
 						}
 						}

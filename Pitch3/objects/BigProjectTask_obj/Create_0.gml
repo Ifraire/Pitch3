@@ -22,5 +22,5 @@ tempStress = 15;
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1
 /// @DnDHash : 59EE4541
-/// @DnDArgument : "steps" "120"
-alarm_set(0, 120);
+/// @DnDArgument : "steps" "600"
+alarm_set(0, 600);

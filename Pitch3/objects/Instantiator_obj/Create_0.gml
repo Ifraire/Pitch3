@@ -21,9 +21,9 @@ global.Grades = 100;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 6F16A5D1
-/// @DnDArgument : "value" "50"
+/// @DnDArgument : "value" "70"
 /// @DnDArgument : "var" "Energy"
-global.Energy = 50;
+global.Energy = 70;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
