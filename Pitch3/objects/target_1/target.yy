@@ -25,7 +25,7 @@
   "overriddenProperties": [],
   "parent": {
     "name": "chatting",
-    "path": "folders/Objects/minigames/chatting.yy",
+    "path": "folders/Objects/chatting.yy",
   },
   "resourceVersion": "1.0",
   "name": "target",

@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "targetSprite",
-    "path": "sprites/targetSprite/targetSprite.yy",
+    "name": "guageSprite_1",
+    "path": "sprites/guageSprite_1/guageSprite_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -25,10 +25,10 @@
   "overriddenProperties": [],
   "parent": {
     "name": "chatting",
-    "path": "folders/Objects/minigames/chatting.yy",
+    "path": "folders/Objects/chatting.yy",
   },
   "resourceVersion": "1.0",
-  "name": "target",
+  "name": "guage_1",
   "tags": [],
   "resourceType": "GMObject",
 }

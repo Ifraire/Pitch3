@@ -1,7 +1,7 @@
 {
   "spriteId": {
-    "name": "ballSprite",
-    "path": "sprites/ballSprite/ballSprite.yy",
+    "name": "ballSprite_1",
+    "path": "sprites/ballSprite_1/ballSprite_1.yy",
   },
   "solid": false,
   "visible": true,
@@ -24,15 +24,16 @@
     {"isDnD":true,"eventNum":0,"eventType":0,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":32,"eventType":9,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
     {"isDnD":false,"eventNum":0,"eventType":3,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
+    {"isDnD":true,"eventNum":0,"eventType":2,"collisionObjectId":null,"resourceVersion":"1.0","name":"","tags":[],"resourceType":"GMEvent",},
   ],
   "properties": [],
   "overriddenProperties": [],
   "parent": {
     "name": "chatting",
-    "path": "folders/Objects/minigames/chatting.yy",
+    "path": "folders/Objects/chatting.yy",
   },
   "resourceVersion": "1.0",
-  "name": "ball",
+  "name": "ball_1",
   "tags": [],
   "resourceType": "GMObject",
 }
