@@ -39,3 +39,21 @@ draw_text(x + -116, y + -110, string("Start Week ") + string(global.week));
 /// @DnDArgument : "caption" ""Tasks: ""
 /// @DnDArgument : "var" "ds_list_size(global.taskList)"
 draw_text(70, 20, string("Tasks: ") + string(ds_list_size(global.taskList)));
+
+/// @DnDAction : YoYo Games.Common.If_Variable
+/// @DnDVersion : 1
+/// @DnDHash : 577E20A1
+/// @DnDArgument : "var" "ds_list_size(global.taskList)"
+/// @DnDArgument : "op" "4"
+/// @DnDArgument : "value" "4"
+if(ds_list_size(global.taskList) >= 4)
+{
+	/// @DnDAction : YoYo Games.Drawing.Draw_Value
+	/// @DnDVersion : 1
+	/// @DnDHash : 0F580DE1
+	/// @DnDParent : 577E20A1
+	/// @DnDArgument : "x" "480"
+	/// @DnDArgument : "y" "20"
+	/// @DnDArgument : "caption" ""Too many tasks will increase stress""
+	draw_text(480, 20, string("Too many tasks will increase stress") + "");
+}

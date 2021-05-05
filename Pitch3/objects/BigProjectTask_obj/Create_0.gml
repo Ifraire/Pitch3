@@ -8,16 +8,16 @@ global.didSchool = true;
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 6292CD88
-/// @DnDArgument : "expr" "10"
+/// @DnDArgument : "expr" "15"
 /// @DnDArgument : "var" "tempGrades"
-tempGrades = 10;
+tempGrades = 15;
 
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
 /// @DnDHash : 7D761BCC
-/// @DnDArgument : "expr" "15"
+/// @DnDArgument : "expr" "20"
 /// @DnDArgument : "var" "tempStress"
-tempStress = 15;
+tempStress = 20;
 
 /// @DnDAction : YoYo Games.Instances.Set_Alarm
 /// @DnDVersion : 1

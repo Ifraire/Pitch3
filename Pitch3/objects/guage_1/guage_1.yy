@@ -1,8 +1,5 @@
 {
-  "spriteId": {
-    "name": "guageSprite_1",
-    "path": "sprites/guageSprite_1/guageSprite_1.yy",
-  },
+  "spriteId": null,
   "solid": false,
   "visible": true,
   "spriteMaskId": null,

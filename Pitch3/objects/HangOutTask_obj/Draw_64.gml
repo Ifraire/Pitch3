@@ -33,15 +33,15 @@ draw_text(room_width / 2, room_height / 2, string("You hung out with friends") +
 /// @DnDHash : 40F95F8D
 /// @DnDArgument : "x" "room_width / 2"
 /// @DnDArgument : "y" "room_height / 2 + 64"
-/// @DnDArgument : "caption" ""- ""
+/// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "string(tempStress) + " stress""
-draw_text(room_width / 2, room_height / 2 + 64, string("- ") + string(string(tempStress) + " stress"));
+draw_text(room_width / 2, room_height / 2 + 64, string("") + string(string(tempStress) + " stress"));
 
 /// @DnDAction : YoYo Games.Drawing.Draw_Value
 /// @DnDVersion : 1
 /// @DnDHash : 7F23C07A
 /// @DnDArgument : "x" "room_width / 2"
 /// @DnDArgument : "y" "room_height / 2 + 128"
-/// @DnDArgument : "caption" ""- ""
+/// @DnDArgument : "caption" """"
 /// @DnDArgument : "var" "string(tempMoney) + " money""
-draw_text(room_width / 2, room_height / 2 + 128, string("- ") + string(string(tempMoney) + " money"));
+draw_text(room_width / 2, room_height / 2 + 128, string("") + string(string(tempMoney) + " money"));

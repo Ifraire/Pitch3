@@ -48,8 +48,8 @@
     "PhysicsWorldPixToMetres": 0.1,
   },
   "parent": {
-    "name": "minigames",
-    "path": "folders/Rooms/minigames.yy",
+    "name": "tasks",
+    "path": "folders/Rooms/tasks.yy",
   },
   "resourceVersion": "1.0",
   "name": "quizRoom",

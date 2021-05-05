@@ -9,4 +9,3 @@ if ((targeted > 0))
 	}
 }
 topicsLeft -= 1;
-if topicsLeft = 0;
