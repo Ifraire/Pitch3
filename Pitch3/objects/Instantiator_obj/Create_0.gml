@@ -7,9 +7,9 @@ global.Stress = 0;
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 2769C4CE
-/// @DnDArgument : "value" "25"
+/// @DnDArgument : "value" "30"
 /// @DnDArgument : "var" "Money"
-global.Money = 25;
+global.Money = 30;
 
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1

@@ -6,6 +6,14 @@
 /// @DnDArgument : "var" "week"
 global.week += 1;
 
+/// @DnDAction : YoYo Games.Common.Set_Global
+/// @DnDVersion : 1
+/// @DnDHash : 1ECBD1D2
+/// @DnDArgument : "value" "-5"
+/// @DnDArgument : "value_relative" "1"
+/// @DnDArgument : "var" "Money"
+global.Money += -5;
+
 /// @DnDAction : YoYo Games.Common.If_Expression
 /// @DnDVersion : 1
 /// @DnDHash : 02C65543
