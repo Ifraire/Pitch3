@@ -15,8 +15,3 @@ if (topicsLeft > 0)
 {
 	topicsLeft -= 1;
 }
-else
-{
-	instance_destroy(target_obj);
-	instance_destroy(ball_obj);
-}

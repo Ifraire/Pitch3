@@ -12,3 +12,8 @@ if(topicsLeft > 0)
 	target_obj.x = random_range(612, 782);
 	}
 }
+else
+{
+	instance_destroy(target_obj);
+	x = 2000;
+}

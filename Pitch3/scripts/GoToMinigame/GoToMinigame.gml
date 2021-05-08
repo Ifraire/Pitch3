@@ -71,10 +71,26 @@ function GoToMinigame(inWeek)
 						/// @DnDVersion : 1
 						/// @DnDHash : 017ABDD3
 						/// @DnDParent : 79044563
-						/// @DnDArgument : "code" "if(inWeek)$(13_10){$(13_10)	ds_list_delete(global.taskList,0)$(13_10)}$(13_10)if (ds_list_size(global.taskList) > 0)$(13_10){$(13_10)switch (ds_list_find_value(global.taskList,0))$(13_10){$(13_10)	case "power nap":$(13_10)		room_goto(PowerNap);$(13_10)		break;$(13_10)	case "hang out":$(13_10)		room_goto(HangOut);$(13_10)		break;$(13_10)	case "big project":$(13_10)		room_goto(BigProject);$(13_10)		break;$(13_10)	case "work":$(13_10)		room_goto(Work);$(13_10)		break;$(13_10)	case "8 hour sleep":$(13_10)		room_goto(sleepRoom);$(13_10)		break;$(13_10)	case "study":$(13_10)		room_goto(quizRoom);$(13_10)		break;$(13_10)	case "chat":$(13_10)		room_goto(ChattingRoom);$(13_10)		break;$(13_10)	case "essay":$(13_10)		room_goto(EssayRoom);$(13_10)		break;$(13_10)}$(13_10)}$(13_10)else$(13_10){$(13_10)	room_goto(Room1)$(13_10)}"
+						/// @DnDArgument : "code" "if(inWeek)$(13_10){$(13_10)	ds_list_delete(global.taskList,0)$(13_10)}$(13_10)if (global.Money > 100)$(13_10){$(13_10)	global.Money = 100;$(13_10)}$(13_10)if (global.Energy > 100)$(13_10){$(13_10)	global.Energy = 100;$(13_10)}$(13_10)if (global.Grades > 100)$(13_10){$(13_10)	global.Grades = 100;$(13_10)}$(13_10)if (global.Stress < 0)$(13_10){$(13_10)	global.Stress = 0;$(13_10)}$(13_10)if (ds_list_size(global.taskList) > 0)$(13_10){$(13_10)switch (ds_list_find_value(global.taskList,0))$(13_10){$(13_10)	case "power nap":$(13_10)		room_goto(PowerNap);$(13_10)		break;$(13_10)	case "hang out":$(13_10)		room_goto(ChattingRoom);$(13_10)		break;$(13_10)	case "big project":$(13_10)		room_goto(BigProject);$(13_10)		break;$(13_10)	case "work":$(13_10)		room_goto(Work);$(13_10)		break;$(13_10)	case "8 hour sleep":$(13_10)		room_goto(sleepRoom);$(13_10)		break;$(13_10)	case "study":$(13_10)		room_goto(quizRoom);$(13_10)		break;$(13_10)	case "chat":$(13_10)		room_goto(ChattingRoom);$(13_10)		break;$(13_10)	case "essay":$(13_10)		room_goto(EssayRoom);$(13_10)		break;$(13_10)}$(13_10)}$(13_10)else$(13_10){$(13_10)	room_goto(Room1)$(13_10)}"
 						if(inWeek)
 						{
 							ds_list_delete(global.taskList,0)
+						}
+						if (global.Money > 100)
+						{
+							global.Money = 100;
+						}
+						if (global.Energy > 100)
+						{
+							global.Energy = 100;
+						}
+						if (global.Grades > 100)
+						{
+							global.Grades = 100;
+						}
+						if (global.Stress < 0)
+						{
+							global.Stress = 0;
 						}
 						if (ds_list_size(global.taskList) > 0)
 						{
@@ -84,7 +100,7 @@ function GoToMinigame(inWeek)
 								room_goto(PowerNap);
 								break;
 							case "hang out":
-								room_goto(HangOut);
+								room_goto(ChattingRoom);
 								break;
 							case "big project":
 								room_goto(BigProject);

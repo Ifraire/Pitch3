@@ -1,16 +1,23 @@
 /// @DnDAction : YoYo Games.Common.Variable
 /// @DnDVersion : 1
+/// @DnDHash : 3C991D62
+/// @DnDArgument : "expr" "-5"
+/// @DnDArgument : "var" "tempMoney"
+tempMoney = -5;
+
+/// @DnDAction : YoYo Games.Common.Variable
+/// @DnDVersion : 1
 /// @DnDHash : 2D7B2400
-/// @DnDArgument : "expr" "-10"
+/// @DnDArgument : "expr" "-15"
 /// @DnDArgument : "var" "tempStress"
-tempStress = -10;
+tempStress = -15;
 
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 4EA07B78
-/// @DnDArgument : "code" "movespeed = 5;$(13_10)topicsLeft = 3;$(13_10)chattingPoints = 0;$(13_10)pressed = false;"
-movespeed = 5;
-topicsLeft = 3;
+/// @DnDArgument : "code" "movespeed = 8;$(13_10)topicsLeft = 5;$(13_10)chattingPoints = 0;$(13_10)pressed = false;"
+movespeed = 8;
+topicsLeft = 5;
 chattingPoints = 0;
 pressed = false;
 
