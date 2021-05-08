@@ -26,3 +26,11 @@ pressed = false;
 /// @DnDHash : 5E9FD790
 /// @DnDArgument : "steps" "600"
 alarm_set(0, 600);
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 1FCA1CC8
+/// @DnDArgument : "soundid" "Talking"
+/// @DnDArgument : "loop" "1"
+/// @DnDSaveInfo : "soundid" "Talking"
+audio_play_sound(Talking, 0, 1);

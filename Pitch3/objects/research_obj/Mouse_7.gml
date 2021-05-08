@@ -5,3 +5,10 @@
 /// @DnDArgument : "type" "1"
 /// @DnDArgument : "max" "10"
 global.projectSpriteNum = floor(random_range(0, 10 + 1));
+
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 2A5F51D2
+/// @DnDArgument : "soundid" "Click"
+/// @DnDSaveInfo : "soundid" "Click"
+audio_play_sound(Click, 0, 0);

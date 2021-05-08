@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 77401824
+/// @DnDArgument : "soundid" "Ding"
+/// @DnDSaveInfo : "soundid" "Ding"
+audio_play_sound(Ding, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3673FA32

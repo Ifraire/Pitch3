@@ -1,3 +1,10 @@
+/// @DnDAction : YoYo Games.Audio.Play_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 0516A9F1
+/// @DnDArgument : "soundid" "Fail"
+/// @DnDSaveInfo : "soundid" "Fail"
+audio_play_sound(Fail, 0, 0);
+
 /// @DnDAction : YoYo Games.Common.Execute_Code
 /// @DnDVersion : 1
 /// @DnDHash : 3673FA32

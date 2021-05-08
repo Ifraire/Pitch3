@@ -28,3 +28,10 @@ global.Money += tempMoney;
 /// @DnDArgument : "arg" "true"
 /// @DnDSaveInfo : "script" "GoToMinigame"
 script_execute(GoToMinigame, true);
+
+/// @DnDAction : YoYo Games.Audio.Stop_Audio
+/// @DnDVersion : 1
+/// @DnDHash : 19A36BC5
+/// @DnDArgument : "soundid" "Talking"
+/// @DnDSaveInfo : "soundid" "Talking"
+audio_stop_sound(Talking);

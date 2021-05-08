@@ -1,3 +1,22 @@
+/// @DnDAction : YoYo Games.Audio.If_Audio_Playing
+/// @DnDVersion : 1
+/// @DnDHash : 068EACAA
+/// @DnDArgument : "soundid" "Sappheiros___Dawn"
+/// @DnDArgument : "not" "1"
+/// @DnDSaveInfo : "soundid" "Sappheiros___Dawn"
+var l068EACAA_0 = Sappheiros___Dawn;
+if (!audio_is_playing(l068EACAA_0))
+{
+	/// @DnDAction : YoYo Games.Audio.Play_Audio
+	/// @DnDVersion : 1
+	/// @DnDHash : 279014A9
+	/// @DnDParent : 068EACAA
+	/// @DnDArgument : "soundid" "Sappheiros___Dawn"
+	/// @DnDArgument : "loop" "1"
+	/// @DnDSaveInfo : "soundid" "Sappheiros___Dawn"
+	audio_play_sound(Sappheiros___Dawn, 0, 1);
+}
+
 /// @DnDAction : YoYo Games.Common.Set_Global
 /// @DnDVersion : 1
 /// @DnDHash : 4C3EB1E6
